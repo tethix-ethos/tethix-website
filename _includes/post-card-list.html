@@ -1,0 +1,21 @@
+{%- assign date_format = "%b %-d, %Y" -%}
+<div class="col">
+  <div class="card h-100 shadow-sm">
+    <div class="overflow-hidden" style="height: 200px;">
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | default: site.image | relative_url }}"
+            class="card-img-top w-100 h-100 object-fit-cover"
+            alt="{{ post.image_alt | default: post.title }}">
+      </a>
+    </div>
+    <div class="card-body d-flex flex-column">
+      <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+      <p class="card-text">{{ post.description | strip_html | truncate: 300 }}</p>
+      <a href="{{ post.url | relative_url }}" class="button mb-auto">Read post</a>
+    </div>
+  </div>
+</div>
+
+
+
+

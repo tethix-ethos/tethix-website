@@ -1,0 +1,6 @@
+<div class="blog-post-card">
+    <a href="{{ include.url }}"><img src="{{ include.image | relative_url }}" alt="" /></a>
+    <h3><a href="{{ include.url }}">{{ include.title }}</a></h3>
+    <p>{{ include.excerpt }}</p>
+    {% if include.read_button != 'none' %}<p class="text-center"><a class="button" href="{{ include.url }}" role="button">Read post</a></p>{% endif %}
+</div>

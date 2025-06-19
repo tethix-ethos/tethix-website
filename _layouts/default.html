@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.svg' | relative_url }}">
+  
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" title="Tethix blog posts" href="{{ site.feed.collections.posts.path | relative_url }}" />
+  <link rel="alternate" type="application/rss+xml" title="Pathfinders Newmoonsletter" href="{{ site.feed.collections.newmoonsletters.path | relative_url }}" />
+  
+  {% seo %}
+
+</head>
+
+<body class='page {{layout.bodyClass}} {{page.bodyClass}}'>
+  {% include main-menu-mobile.html %}
+  <div id="wrapper" class="wrapper">
+    {% include header.html headerClass='header-extra' %}
+    {% if page.ethos %}{% include ethos-menu.html %}{% endif %}
+    <main>
+    {{content}}
+    </main>
+  </div>
+  {% include footer.html %}
+  {% include sub-footer.html %}
+  {% include bottom-footer.html %}
+  <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+</body>
+</html>

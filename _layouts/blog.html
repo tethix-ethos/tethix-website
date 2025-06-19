@@ -1,0 +1,37 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: posts
+---
+
+{% if page.show_featured and paginator.page == 1 %}{% include featured-posts.html %}{% endif %}
+
+{% include blog-nav-elemental.html %}
+
+<section class="blog-posts-list py-4">
+  <div class="container">
+    {% if site.posts.size > 0 %}
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      {% for post in paginator.posts %}
+      {% include post-card-list.html %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% include pagination.html paginator=paginator  type="posts" %}
+
+{{ content }}
+
+{% include section-plain.html 
+  title="Tethix Pathfinding in your inbox"
+  content="To receive our best long form content directly in your inbox, you can subscribe to [Tethix Pathfinding](https://tethix.substack.com/) on Substack."
+  bg_color="bg-light"
+  text_center="true"
+%}
+
+
+
+

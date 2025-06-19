@@ -1,0 +1,27 @@
+main:
+  - name: "ETHOS"
+    url: "/practice-ethos/"
+    weight: 2
+  - name: "Pathfinders"
+    url: "/pathfinders/"
+    weight: 3
+  - name: "Firekeeping"
+    url: "/elemental-ethics/"
+    weight: 4
+  - name: "Blog"
+    url: "/blog/"
+    weight: 5
+
+footer:
+  - name: "About"
+    url: "/about-tethix/"
+    weight: 1
+  - name: "Codesign Principles"
+    url: "/codesign-principles/"
+    weight: 2
+  - name: "Tools Directory"
+    url: "/ethics-tools-directory/"
+    weight: 3
+  - name: "Privacy Policy"
+    url: "/privacy-policy/"
+    weight: 4

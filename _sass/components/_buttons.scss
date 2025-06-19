@@ -1,0 +1,75 @@
+.button {
+  display: inline-block;
+  line-height: 16px;
+  padding: 15px 30px;
+  background: $primary;
+  border-radius: 90px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  &:hover {
+    filter: brightness(95%);
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+}
+.button-fire {
+  background-color: $fire;
+}
+.button-air {
+  background-color: $air;
+}
+.button-earth {
+  background-color: $earth;
+}
+.button-elements {
+  background-color: #1e1e1e;
+}
+.button-external::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(3%) saturate(367%) hue-rotate(282deg) brightness(113%) contrast(100%);
+  background-image: url("/images/icons/arrow-up-right-from-square-solid.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.button-earth,
+.button-air {
+  color: #333;
+  &.button-external::before {
+    filter: none;
+  }
+}
+.button-podcast {
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-top: 12px;
+  margin-right: 6px;
+  img {
+    filter: brightness(0) saturate(100%);
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+}
+.button-pathfinders {
+  font-size: 18px;
+  padding: 20px 40px;
+  color: $primary;
+  background-color: $white-offset;
+  border: 2px solid $primary;
+  img {
+    //filter: brightness(0) saturate(100%);
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+  }
+}

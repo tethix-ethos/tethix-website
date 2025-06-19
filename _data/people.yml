@@ -1,0 +1,30 @@
+team:
+  - name: Mathew Mytka
+    image: /wp-content/uploads/2023/06/Tethix_TeamPage_Image_mat.png
+    title: Chief Vision Shaper (CEO)
+    description: |
+      Shaping the vision and strategy for Tethix. A moral imagineer, dad, husband, amateur gardener, systems thinker, and wannabe extreme sports enthusiast. Experience working with startups and governments thru to fortune 500 companies. Mat helped establish Australias' first entrepreneurship college and has worked at the intersection of operationalising applied ethics, trust and technologies for more than a decade.
+      
+      Known to sometimes break out raps & rhymes.
+    linkedin: https://www.linkedin.com/in/mathewmytka/
+  - name: Alja Isakovic
+    image: /wp-content/uploads/2023/06/Tethix_TeamPage_Image_alja.png
+    title: Chief Product Sculptor (CTO)
+    description: |
+      Leading the direction of the platform experiences people have on Tethix. A multi-passionate systems thinker and storyteller, focused on improving tech & education with imagination, innovation, and inclusivity, building upon two decades of UX, product, and startup experience. Alja founded ResponsibleTech.Work, European Commission-backed Europe Code Week, and other initiatives aimed at making tech more accessible.
+
+      Experienced cat herder, gamer, and LEGO builder.
+    linkedin: https://www.linkedin.com/in/ialja
+advisors:
+  - name: Katina Michael
+    image: /wp-content/uploads/2022/02/Tethix_TeamPage_Image_WithOutline_katina.png
+    description: An inspirational socio-technical dynamo, author, poet and educator and mentor to many. A professor at the School for the Future of Innovation in Society and School of Computing and Augmented Intelligence at Arizona State University. Founding editor-in-chief of the IEEE Transactions on Technology and Society and published academic with over 200 peer reviewed papers.
+  - name: Roba Abbas
+    image: /wp-content/uploads/2022/02/Tethix_TeamPage_Image_WithOutline_roba.png
+    description: A persistent advocate for socio-technical design and public interest technology. A published author and educator with the Faculty of Business and Law at the University of Wollongong. Roba's areas of focus include co-design and socio-technical systems, and emerging technologies. She is Co-Editor-in-Chief of the IEEE Transactions on Technology and Society and is the Technical Chair of the IEEE Socio-Technical Systems Committee.
+  - name: Nathan Kinch
+    image: /wp-content/uploads/2023/06/Tethix_TeamPage_Image_WithOutline_nate.png
+    description: Working to weave ecosystem connections and support value co-creation and commercial pathways. Nathan is a practical sociotechnology ethicist that has spent the last decade leading major programs in responsible innovation all around the world. Contributing to bring about more trustworthy organisations on a better track to make technology a force for good.
+  - name: Stuart Hudson
+    image: /wp-content/uploads/2023/06/Tethix_TeamPage_Image_WithOutline_stuart.png
+    description: Bringing deep technical expertise and guidance, and a true tinkerer and technologist with rich philosophical grounding. Stuart has more than 3 decades experience working in senior leadership positions architecting and building innovative technology. His deep care about the problems worth solving in operationalising ethics in tech is combined with pragmatism and passion.

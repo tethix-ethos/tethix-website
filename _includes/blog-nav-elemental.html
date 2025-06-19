@@ -1,0 +1,50 @@
+{% if page.autopages %}
+  {% assign page_name = page.autopages.display_name | downcase %}
+    {% if page.autopages.layout_path contains 'category' %}
+      {% assign page_type = 'category' %}
+    {% elsif page.autopages.layout_path contains 'tag' %}
+      {% assign page_type = 'tag' %}
+    {% else %}
+      {% assign page_type = 'other' %}
+    {% endif %}
+{% else %}
+  {% assign page_type = 'all' %}
+{% endif %}
+
+<section class="blog-categories-menu pt-4 pb-2">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="fs-2 mb-1">
+      {% if page_type == 'all' %}
+      All blog posts
+      {% elsif page_type == 'tag' %}
+      Blog tag: {{ page_name | capitalize }}
+      {% elsif page_type == 'category' %}
+      Blog category: {{ page_name | capitalize }}
+      {% endif %}
+      </h1>
+      {% if page_type == 'category' %}
+      <p class="subtitle" style="font-size:20px;">{{ site.data.categories[page_name].description }}</p>
+      {% endif %}
+      {% if paginator.page != 1 %}
+      <div class="text-center text-muted fs-6 pb-2">(Viewing page {{ paginator.page }} out of {{ paginator.total_pages }})</div>
+      {% endif  %}
+    </div>
+    {% if page_type != 'tag' %}
+    <div class="row pt-1">
+      <div class="col text-center blog-nav-elemental">
+        {% assign page_url = page.url | trim: '/' %}
+        <a href="{{ '/blog/' | relative_url }}" class="button button-elements elements{% if page_type == 'all' %} current{% endif %}">All</a>
+        <a href="{{ '/blog/category/air/' | relative_url }}"  class="button button-air air{% if page_name == 'air' %} current{% endif %}">Collaboration</a>
+        <a href="{{ '/blog/category/earth/' | relative_url }}" class="button button-earth earth{% if page_name == 'earth' %} current{% endif %}">Research</a>
+        <a href="{{ '/blog/category/fire/' | relative_url }}" class="button button-fire fire{% if page_name == 'fire' %} current{% endif %}">Practice</a>
+        <a href="{{ '/blog/category/water/' | relative_url }}" class="button button-water water{% if page_name == 'water' %} current{% endif %}">Reflection</a>
+      </div> 
+    </div>
+    {% else %}
+    <div class="text-center pt-1">
+      <a href="{{ '/blog/' | relative_url }}" class="button button-elements elements">Browse all posts</a>
+    </div>
+    {% endif %}
+  </div>
+</section>

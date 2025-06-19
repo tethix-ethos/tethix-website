@@ -1,0 +1,133 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Tethix
+author: Tethix
+email: info@tethix.co
+description: >- # this means to ignore newlines until "baseurl:"
+  Crafting tools and narratives that close the ethical intent to action gap in product development.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tethix-ethos.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+logo: "images/logo/logo.svg" # used by seo plugin
+image: /images/logo/tethix-default-image.png
+
+# Build settings
+# Logo variations & settings for the header
+headerlogo:
+  mobile: "images/logo/logo-mobile.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "49px"
+  desktop_width: "120px"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - jekyll-target-blank
+  - jekyll-redirect-from
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+  newmoonsletters:
+    output: true
+    permalink: /pathfinders/newmoonsletter/:title/
+    sort_by: date
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/logo/tethix-default-image.png
+  - scope:
+      type: posts
+    values:
+      layout: post
+  - scope:
+      type: newmoonsletters
+    values:
+      layout: newmoonsletter
+      image: /wp-content/uploads/2024/03/pathfinders-newmoonsletter.png
+
+# Used to check whether a newmoonsletter uses the default image, make sure to update if default image value above changes
+default_newmoon_image: /wp-content/uploads/2024/03/pathfinders-newmoonsletter.png 
+
+# Settings for jekyll-paginate-v2 plugin
+# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
+pagination:  
+  enabled: true
+  collection: posts
+  per_page: 12
+  sort_reverse: true
+  permalink: '/page/:num/'
+  trail: 
+    before: 3 # The number of links before the current page
+    after: 3  # The number of links after the current page
+
+autopages:
+  enabled: true
+  categories: 
+    enabled: true
+    title: 'Posts in category :cat'
+    permalink: '/blog/category/:cat'
+    silent: false
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: true       # Whether to replace all uppercase letters with their lowercase counterparts
+  tags:
+    title: 'Posts under the tag :tag' # :tag is replaced by the tag name
+    permalink: '/blog/tag/:tag'
+    slugify:
+      mode: 'default'   # :tag is slugified.
+      case: true
+  collections: 
+    enabled: false
+
+# Feed settings
+feed:
+  collections:
+    posts:
+      path: "/feed.xml"
+    newmoonsletters:
+      path: "/newmoonsletter.xml"
+
+# SEO tag info
+author:
+  name: "Tethix"
+  type: "Organization"
+  url: "https://tethix.co"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

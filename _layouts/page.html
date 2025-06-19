@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<section class="hero bg-white py-6">
+  <div class="container">
+    {% if page.hero_title_top %}
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="hero-title">{{ page.hero_title_top }}</h1>
+      </div>
+    </div>
+    {% endif %}
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        {% if page.hero_above %}
+        <div class="abovetitle">{{ page.hero_above }}</div>
+        {% endif %}
+        {% unless page.hero_title_top %}
+        <h1>{{ page.hero_title | default: page.title }}</h1>
+        {% endunless %}
+        {% if page.hero_text %}
+        <div class="subtitle">{{ page.hero_text | markdownify }}</div>
+        {% endif %}
+      </div>
+      {% if page.hero_image %}
+      <div class="col-md-6 text-center">
+        <img src="{{ page.hero_image | relative_url }}" alt="" class="img-fluid rounded">
+        {% if page.hero_under_image %}{{ page.hero_under_image | html }}{% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{{content}}

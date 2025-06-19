@@ -1,0 +1,22 @@
+<section class="{{ include.bg_color | default: 'bg-white' }} section-ethos" {% if include.id %}id="{{ include.id }}"{% endif %}>
+  <div class="container py-8">
+    {% if include.title_top %}
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <h2 class="title-top">{{ include.title_top }}</h2>
+      </div>
+    </div>
+    {% endif %}
+    <div class="row">
+      <div class="col-md-6 {% if include.image_position == 'left' %}order-md-1{% else %}order-md-2{% endif %} text-center">
+        {% if include.image %}<img src="{{ include.image | relative_url }}" class="img-fluid" alt="" {% if include.image_width %}width="{{ include.image_width }}"{% endif %}>{% endif %}
+        {% if include.under_image %}{{ include.under_image }}{% endif %}
+      </div>
+      <div class="col-md-6 {% if include.image_position == 'left' %}order-md-2{% else %}order-md-1{% endif %}">
+        {% if include.title %}<h2 class="fs-3 title-main">{{ include.title }}</h2>{% endif %}
+        <div class="content-main">{{ include.content | markdownify }}</div>
+        {% if include.button_text %}<p class="text-center"><a class="button button-external" href="{{ button_link }}" role="button">{{ include.button_text }}</a></p>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>

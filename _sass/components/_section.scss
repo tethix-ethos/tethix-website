@@ -1,0 +1,224 @@
+.hero {
+  color: #1E1E1E;
+  .hero-title {
+    font-size: 52px;
+    @include media-breakpoint-down(md) {
+      font-size: 42px !important;
+    }
+  }
+  h1, h2 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 58px;
+    text-wrap: balance;
+  }
+
+  .abovetitle {
+    font-family: $font-family-heading;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-block-end: 20px;
+  }
+}
+.subtitle p,
+p.subtitle {
+  font-family: $font-family-subheading !important;
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 32px;
+  letter-spacing: 0.8px;
+  @include media-breakpoint-down(md) {
+    font-size: 24px;
+   }
+}
+section {
+  h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-wrap: balance;
+  }
+}
+.bg-fire {
+  background-color: #FFF2F7; 
+}
+.bg-light {
+  background-color: $white-offset !important; 
+}
+.sparks {
+  .col-12 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; // spacing between images
+    justify-content: center; // center images horizontally
+
+    a {
+      position: relative;
+      display: block;
+      width: 224px;  // fixed width to match image
+      height: 316px; // fixed height to match image
+      overflow: hidden;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.3s ease;
+        backface-visibility: hidden;
+      }
+
+      // Overlay for alt text using aria-label or alt attribute
+      &::after {
+        content: attr(aria-label);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40%;                // increased height for overlay
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font-size: 1rem;
+        padding: 0.75rem 0.5rem;
+        text-align: center;
+        opacity: 0;
+        pointer-events: none;
+        white-space: normal;       // allow wrapping
+        overflow-y: auto;          // scroll if too long vertically
+        line-height: 1.3;
+        transition: opacity 0.3s ease;
+        box-sizing: border-box;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.05);
+        }
+
+        &::after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.ethos-cards {
+  .card {
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    .card-body  {
+      padding: 36px;
+    }
+    .card-img {
+      float: left;
+      width: 63px;
+      height: 63px;
+      margin-right: 20px;
+    }
+    h3 {
+      font-size: 28px;
+      line-height: 63px;
+    }
+  }
+}
+.people-cards {
+  .card {
+    box-shadow: $box-shadow;
+  }
+  .card-title {
+    font-family: $font-family-heading;
+  }
+  .person-title {
+    color: $primary;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+  }
+  .card-text p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  a:hover {
+    opacity: 0.8;
+  }
+  .card-footer {
+    img {
+      filter: brightness(0) saturate(100%) invert(17%) sepia(61%) saturate(3073%) hue-rotate(269deg) brightness(98%) contrast(103%);
+    }
+  }
+}
+.section-w-bg {
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  p {
+    color: white;
+  }
+  @include media-breakpoint-down(md) {
+    background-attachment: scroll;
+    min-height: unset;
+  }
+}
+.card-link-newmoonsletter {
+  display: block;
+  text-decoration: none !important; // <- apply to the <a> itself
+  height: 100%; 
+  &:hover {
+    text-decoration: none !important; // <- prevent underline on <a> hover
+
+    .card-newmoonsletter {
+      color: $primary;
+      background-color: $white-offset;
+    }
+  }
+
+  .card-newmoonsletter {
+    height: 100%;
+    transition: background-color 0.3s ease;
+    .card-body {
+      img {
+        float: right; 
+        max-height: 100px; 
+        object-fit: cover;
+        width: 160px;
+      }
+    }
+  }
+
+  * {
+    text-decoration: none !important;
+  }
+
+  &:hover * {
+    text-decoration: none !important;
+  }
+}
+/* Used on pathfinders page & in Newmoonsletters */
+#podcast div > img,
+.podcast-card,
+.full-moon-card {
+  width: 300px;
+  height: 300px;
+  border-radius: 28px !important;
+  box-shadow: $box-shadow;
+  display: block;
+  margin: 0 auto 10px;
+}
+.full-moon-card {
+  width: 400px;
+  height: 400px;
+}
+.podcast-card:hover,
+.full-moon-card:hover {
+  scale: 102%;
+}

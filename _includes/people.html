@@ -1,0 +1,30 @@
+{% assign people_set = site.data.people[include.set] %}
+<section class="people-cards bg-light pb-6">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-lg-2 g-4">
+      {% for person in people_set %}
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <div class="mb-1">
+              <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" width="120px" height="120px">
+            </div>
+            <h3 class="card-title fs-2">{{ person.name }}</h3>
+            {% if person.title %}
+            <div class="person-title">{{ person.title }}</div>
+            {% endif %}
+            <div class="card-text fs-5 mt-1 px-3" >{{ person.description | markdownify }}</div>
+          </div>
+          {% if person.linkedin %}
+          <div class="card-footer bg-none border-0">
+            <a href="{{ person.linkedin }}" target="_blank" class="text-primary" aria-label="LinkedIn profile of {{ person.name }}">
+              <img src="{{ 'images/social/linkedin.svg' | relative_url }}" alt="LinkedIn" width="40px" height="40px">
+            </a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

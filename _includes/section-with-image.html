@@ -1,0 +1,19 @@
+<section 
+  class="
+    section-w-image
+    {{ include.bg_color | default: 'bg-white' }}
+    "
+  {% if include.id %}id="{{ include.id }}"{% endif %}
+  >
+  <div class="container py-8">
+    <div class="row align-items-center">
+      <div class="col-md-4 {% if include.image_position == 'left' %}order-md-1{% else %}order-md-2{% endif %}">
+        <img src="{{ include.image | relative_url }}" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-8 {% if include.image_position == 'left' %}order-md-2{% else %}order-md-1{% endif %}">
+        {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+        {{ include.content | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>

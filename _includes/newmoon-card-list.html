@@ -1,0 +1,24 @@
+{%- assign date_format = "%b %-d, %Y" -%}
+<div class="col">
+  <a href="{{ issue.url | relative_url }}" class="card-link-newmoonsletter">
+  <div class="card h-100 shadow-sm card-newmoonsletter">
+    <div class="card-body flex-column">
+      {% if issue.image != site.default_newmoon_image %}
+      <img src="{{ issue.image | relative_url }}" >
+      {% endif %}
+      <h3 class="card-title">{{ issue.title | escape }}</h3>
+      
+      <p class="card-text">{{ issue.description | strip_html | truncate: 300 }}</p>
+
+    </div>
+    <div class="card-footer text-muted bg-light" style="font-size: 14px;">
+      <img src="{{ '/images/icons/tethix-mark-black.svg' | relative_url }}" width="16" height="16" style="margin-right: 6px;">
+      {{ issue.date | date: "%b %-d, %Y" }}
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+

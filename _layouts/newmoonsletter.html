@@ -1,0 +1,34 @@
+---
+layout: default
+bodyClass: newmoonsletter
+---
+
+<div class="post-hero" style="background-image: url('{{ page.image | relative_url }}');">
+  <div class="overlay"></div>
+  <div class="post-hero-title">
+    <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="container py-4 py-md-6">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-8">
+      <article class="blog-post">
+        <div class="text-muted text-center small post-intro">
+          <div class="text-uppercase fs-6 pb-2"><img src="{{ '/images/icons/tethix-mark-black.svg' | relative_url }}" width="16" height="16" style="margin-right: 6px;"><time datetime="{{ page.date }}">{{ page.date | date: "%b %-d, %Y" }}</time></div>
+          {{page.description}}
+        </div>
+
+        <div class="content pt-4">{{content}}</div>
+
+      </article>
+      <div class="text-center border-top pt-4 mt-8">
+        <a href="{{ '/pathfinders/newmoonsletter/' | relative_url }}" class="button">Browse all issues</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include section-plain.html
+  bg_image="/wp-content/uploads/2024/03/pathfinders-newmoonsletter.png"
+%}

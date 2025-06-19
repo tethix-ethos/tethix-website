@@ -1,0 +1,21 @@
+{% assign spark_set = site.data.sparks[include.set] %}
+<section class="sparks">
+  <div class="container pb-5">
+    <div class="row align-items-center">
+      <div class="col-12">
+      {% for image in spark_set %}
+        {% assign full_image = image.src %}
+        {% assign preview_image = full_image | replace: '.png', '.webp' %}
+        <a href="{{ full_image | relative_url }}" target="_blank" aria-label="{{ image.alt | default: 'Paper spark' }}">
+          <img src="{{ preview_image | relative_url }}"
+              alt="{{ image.alt | default: 'Paper spark preview' }}"
+              width="224"
+              height="316"
+              loading="lazy"
+              style="object-fit: cover;">
+        </a>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,67 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  .wrapper {
+    flex: 1 0 0;
+  }
+}
+.pathfinders {
+  .section-ethos {
+    .title-top {
+      font-size: 48px;
+      margin-bottom: 40px;
+      @include media-breakpoint-down(md) {
+        font-size: 36px;
+      }
+    }
+    .title-main {
+      font-size: 42px !important;
+      @include media-breakpoint-down(md) {
+        font-size: 32px !important;
+      }
+    }
+    p {
+      font-family: $font-family-subheading;
+      font-size: 24px;
+      font-weight: 200;
+    }
+  }
+  .section-w-image {
+    p {
+      font-family: $font-family-subheading;
+      font-size: 24px;
+      font-weight: 200;
+    }
+  }
+  iframe {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+.newmoonsletter {
+  background-color: $white-offset;
+  .content {
+    img {
+      border-radius: $border-radius;
+      display: block;
+      margin: 20px auto;
+    }
+    a:hover > img {
+      transition: all 0.3s ease-in-out;
+      box-shadow: $box-shadow;
+      transform: translateY(-1px);
+    }
+    h3.fire, h3.air, h3.earth, h3.water {
+      font-size: 24px;
+    }
+    .image-caption {
+      text-align: center;
+      color: $gray-600;
+      font-size: 0.8em;
+      margin-top: -10px;
+      padding-bottom: 36px;
+      font-style: italic;
+    }
+  }
+}

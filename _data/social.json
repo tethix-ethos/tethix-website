@@ -1,0 +1,22 @@
+[
+  {
+    "name": "LinkedIn",
+    "link": "https://linkedin.com/company/tethix",
+    "image": "images/social/linkedin.svg"
+  },
+  {
+    "name": "YouTube",
+    "link": "https://www.youtube.com/channel/UCYcZseCgSDhsFLcTVgv9aYg",
+    "image": "images/social/youtube.svg"
+  },
+  {
+    "name": "Substack",
+    "link": "https://tethix.substack.com",
+    "image": "images/social/substack.svg"
+  },
+  {
+      "name": "Podcast",
+      "link": "https://tethix.substack.com/s/pathfinders-podcast",
+      "image": "images/social/podcast.svg"
+  }
+]

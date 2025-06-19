@@ -1,0 +1,20 @@
+<section 
+  class="
+    section-plain
+    {{ include.bg_color | default: 'bg-white' }}
+    {% if include.bg_color == 'bg-primary' %} text-white{% endif %}
+    {% if include.bg_image %} section-w-bg{% endif %}
+    " 
+  {% if include.id %}id="{{ include.id }}"{% endif %}
+  {% if include.bg_image %}
+  style="background-image: url('{{ include.bg_image | relative_url }}');"{% endif %}
+  >
+  <div class="container py-8">
+    <div class="row align-items-center">
+      <div class="col-12 {% if include.text_center %}text-center{% endif %}">
+        {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+        {% if include.content %}{{ include.content | markdownify }}{% endif %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,51 @@
+---
+layout: default
+bodyClass: "blog-post"
+---
+
+{% assign author_name = site.data.authors[page.author].name | default: site.author.name %}
+{% assign author_image = site.data.authors[page.author].image | default: site.headerlogo.mobile | relative_url %}
+
+<div class="post-hero" style="background-image: url('{{ page.image | relative_url }}');">
+  <div class="overlay"></div>
+  <div class="post-hero-title">
+    <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="container pb-6 pt-4 pt-md-6 pb-md-10">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-8">
+      <article class="blog-post">
+        <div class="post-author text-center">
+          <img src="{{ author_image }}" alt="{{ author_name }}" width="84px" height="84px" />
+          <div class="author-name text-muted fs-6 pt-1">{{author_name}}</div>
+        </div>
+        <div class="content pt-4">{{content}}</div>
+        <div class="post-meta pt-6 text-muted text-center">
+          <ul>
+            <li><img src="{{ author_image }}" alt="Calendar icon"> Posted by {{ author_name }}</li>
+            <li>
+              <img src="{{ '/images/icons/calendar-regular.svg' | relative_url }}" alt="Calendar icon"> <time datetime="{{ page.date }}">{{ page.date | date: "%b %-d, %Y" }}</time></li>
+            {% if page.categories.size > 0 %}
+            <li>
+              <img src="{{ '/images/icons/elements-icon-regular.svg' | relative_url }}" alt="Elements icon"> Elements:&#20;
+              {% for cat in page.categories %}
+              <a href="/blog/category/{{ cat | slugify | downcase }}">{{ cat }}</a>
+              {% endfor %}
+            </li>
+            {% endif %}
+            {% if page.tags.size > 0 %}
+            <li>
+              <img src="{{ '/images/icons/hashtag-solid.svg' | relative_url }}" alt="Hashtag icon"> Tags:&#20;
+              {% for tag in page.tags %}
+              <a href="/blog/tag/{{ tag | slugify | downcase }}">{{ tag }}</a>
+              {% endfor %}
+            </li>
+            {% endif %}
+          </ul>    
+        </div>
+      </article>
+    </div>
+  </div>
+</div>

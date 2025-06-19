@@ -1,0 +1,9 @@
+<header class="ethos-menu">
+  <div class="container">
+    {% assign page_url = page.url | trim: '/' %}
+    <img id="ethos-logo" src="{{ '/images/logo/ETHOS-logo.svg' | relative_url }}" alt="ETHOS logo" width="100px"> 
+    <a href="{{ '/practice-ethos' | relative_url }}" {% if page_url == '/practice-ethos/' %}class="current"{% endif %}>🌱 Seedling app</a> 
+    <a href="{{ '/product-ethos' | relative_url }}" {% if page_url == '/product-ethos/' %}class="current"{% endif %}>🌳 Product vision</a> 
+    <a class="button button-fire button-external" href="https://ethos.tethix.co/" role="button">Visit ETHOS</a>
+  </div> 
+</header>

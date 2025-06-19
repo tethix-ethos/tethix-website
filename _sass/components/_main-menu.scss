@@ -1,0 +1,39 @@
+.main-menu {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    > li {
+      list-style: none;
+      font-size: 1rem;
+      > a {
+        font-family: $font-family-nav;
+        font-weight: 500;
+        letter-spacing: 0.6px;
+        font-size: 20px;
+        padding: 10px 12px 10px 12px;
+        display: inline-block;
+        font-weight: normal;
+        text-decoration: none;
+        color: $font-color-base;
+        &:hover {
+          color: $primary;
+          text-decoration: underline;
+          text-decoration-thickness: 3px;
+          text-underline-offset: 8px;
+          -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+        }
+      }
+      &.active {
+        > a {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

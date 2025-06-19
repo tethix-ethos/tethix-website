@@ -1,0 +1,226 @@
+---
+---
+
+// Colors
+$primary: #7B1FA2;
+$primary-dark: #5a1777;
+$secondary: #FFDE03;
+$air: $secondary;
+$earth: #69F0AE;
+$fire: #FF0266;
+$water: $primary;
+$font-color-base: #333;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: #FAF9FF;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+/* FONTS LOCAL */
+/* comfortaa-300 - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: url("{{ '/assets/fonts/comfortaa-v45-latin_latin-ext-300.woff2' | relative_url }}") format('woff2'); 
+}
+/* comfortaa-regular - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url("{{ '/assets/fonts/comfortaa-v45-latin_latin-ext-regular.woff2' | relative_url }}") format('woff2'); 
+}
+/* comfortaa-700 - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: url("{{ '/assets/fonts/comfortaa-v45-latin_latin-ext-700.woff2' | relative_url }}") format('woff2'); 
+}
+/* zilla-slab-300 - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url("{{ '/assets/fonts/zilla-slab-v11-latin_latin-ext-300.woff2' | relative_url }}") format('woff2'); 
+}
+/* zilla-slab-300italic - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 300;
+    src: url("{{ '/assets/fonts/zilla-slab-v11-latin_latin-ext-300italic.woff2' | relative_url }}") format('woff2'); 
+}
+/* zilla-slab-regular - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url("{{ '/assets/fonts/zilla-slab-v11-latin_latin-ext-regular.woff2' | relative_url }}") format('woff2'); 
+}
+/* zilla-slab-italic - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 400;
+    src: url("{{ '/assets/fonts/zilla-slab-v11-latin_latin-ext-italic.woff2' | relative_url }}") format('woff2'); 
+}
+/* zilla-slab-600 - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url("{{ '/assets/fonts/zilla-slab-v11-latin_latin-ext-600.woff2' | relative_url }}") format('woff2'); 
+}
+/* zilla-slab-600italic - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 600;
+    src: url("{{ '/assets/fonts/zilla-slab-v11-latin_latin-ext-600italic.woff2' | relative_url }}") format('woff2'); 
+}
+/* plus-jakarta-sans-300 - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url("{{ '/assets/fonts/plus-jakarta-sans-v8-latin_latin-ext-300.woff2' | relative_url }}") format('woff2'); 
+}
+/* plus-jakarta-sans-300italic - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: url("{{ '/assets/fonts/plus-jakarta-sans-v8-latin_latin-ext-300italic.woff2' | relative_url }}") format('woff2'); 
+}
+/* plus-jakarta-sans-regular - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("{{ '/assets/fonts/plus-jakarta-sans-v8-latin_latin-ext-regular.woff2' | relative_url }}") format('woff2'); 
+}
+/* plus-jakarta-sans-italic - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url("{{ '/assets/fonts/plus-jakarta-sans-v8-latin_latin-ext-italic.woff2' | relative_url }}") format('woff2'); 
+}
+/* plus-jakarta-sans-600 - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url("{{ '/assets/fonts/plus-jakarta-sans-v8-latin_latin-ext-600.woff2' | relative_url }}") format('woff2'); 
+}
+/* plus-jakarta-sans-600italic - latin_latin-ext */
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url("{{ '/assets/fonts/plus-jakarta-sans-v8-latin_latin-ext-600italic.woff2' | relative_url }}") format('woff2'); 
+}
+/* roboto-500 - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url("{{ '/assets/fonts/roboto-v30-latin_latin-ext-500.woff2' | relative_url }}") format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+// Fonts
+$font-family-base: "Plus Jakarta Sans", sans-serif, -apple-system;
+$font-family-heading: "Comfortaa", sans-serif, -apple-system;
+$font-family-subheading: "Zilla Slab", sans-serif, -apple-system;
+$font-family-nav: "Roboto", sans-serif, -apple-system;
+
+// Footer
+$footer-background-color: $primary;
+$footer-text-color: $white;
+$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-text-color: $white;
+
+// Bootstrap 5.3.2
+
+// 1. Include Bootstrap functions first
+@import "bootstrap/functions";
+
+// 2. Include our variable overrides here
+@import "bootstrap-variables";
+
+// 3. Include main bootstrap variables and functions
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+
+// 4. Include optional Bootstrap components
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/card";
+@import "bootstrap/pagination";
+
+// 5. Include Bootstrap helpers and utilities
+@import "bootstrap/helpers";
+@import "bootstrap/utilities/api";
+
+// Libraries
+@import "libraries/hamburgers/hamburgers";
+
+// Components
+@import "components/type";
+@import "components/tethix";
+@import "components/page";
+@import "components/section";
+@import "components/header";
+@import "components/footer";
+@import "components/sub-footer";
+@import "components/bottom-footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/hamburger";
+@import "components/buttons";
+@import "components/tables";
+@import "components/content";
+@import "components/blog";
+@import "components/social";
+
+body {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: $font-family-base;
+  -webkit-font-smoothing: antialiased;
+  @include media-breakpoint-up(md) {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+}

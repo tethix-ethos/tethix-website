@@ -1,0 +1,39 @@
+finding-nature:
+  - src: "/wp-content/uploads/2024/05/ElementalSparks-A4-AIR-FINDING_NATURE-May2024.png"
+    alt: "Finding Nature: Air – Collaboration"
+  - src: "/wp-content/uploads/2024/05/ElementalSparks-A4-EARTH-FINDING_NATURE-May2024.png"
+    alt: "Finding Nature: Earth – Research"
+  - src: "/wp-content/uploads/2024/05/ElementalSparks-A4-FIRE-FINDING_NATURE-May2024.png"
+    alt: "Finding Nature: Fire – Practice"
+  - src: "/wp-content/uploads/2024/05/ElementalSparks-A4-WATER-FINDING_NATURE-May2024.png"
+    alt: "Finding Nature: Water – Reflection"
+
+data-fair:
+  - src: "/wp-content/uploads/2024/02/ElementalSparks-A4-AIR-DATA_FAIR-Feb2024.png"
+    alt: "DATA_FAIR: Air – Collaboration"
+  - src: "/wp-content/uploads/2024/02/ElementalSparks-A4-EARTH-DATA_FAIR-Feb2024.png"
+    alt: "DATA_FAIR: Earth – Research"
+  - src: "/wp-content/uploads/2024/02/ElementalSparks-A4-FIRE-DATA_FAIR-Feb2024.png"
+    alt: "DATA_FAIR: Fire – Practice"
+  - src: "/wp-content/uploads/2024/02/ElementalSparks-A4-WATER-DATA_FAIR-Feb2024.png"
+    alt: "DATA_FAIR: Water – Reflection"
+
+igniting-humane-ai-culture:
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-AIR-Igniting_Humane_AI_Culture-Dec2023.png"
+    alt: "Igniting a Humane AI Business Culture: Air – Collaboration"
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-EARTH-Igniting_Humane_AI_Culture-Dec2023.png"
+    alt: "Igniting a Humane AI Business Culture: Earth – Research"
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-FIRE-Igniting_Humane_AI_Culture-Dec2023.png"
+    alt: "Igniting a Humane AI Business Culture: Fire – Practice"
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-WATER-Igniting_Humane_AI_Culture-Dec2023.png"
+    alt: "Igniting a Humane AI Business Culture: Water – Reflection"
+
+templates:
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-AIR-blank.png"
+    alt: "Tethix Elemental Spark template: Air – Collaboration"
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-EARTH-blank.png"
+    alt: "Tethix Elemental Spark template: Earth – Research"
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-FIRE-blank.png"
+    alt: "Tethix Elemental Spark template: Fire – Practice"
+  - src: "/wp-content/uploads/2023/12/ElementalSparks-A4-WATER-blank.png"
+    alt: "Tethix Elemental Spark template: Water – Reflection"

@@ -1,0 +1,70 @@
+/* Elemental span classes */
+// Map for background colors
+$bg-colors: (
+  air: $air,
+  earth: $earth,
+  fire: $fire,
+  water: $water,
+  elements: #1E1E1E
+);
+
+// Map for background images
+$bg-images: (
+  air: 'air-icon.svg',
+  earth: 'earth-icon.svg',
+  fire: 'fire-icon.svg',
+  water: 'water-icon.svg',
+  elements: 'elements-icon.svg'
+);
+
+// Shared styles for all classes
+.air, .earth, .fire, .water, .elements {
+  padding: 6px;
+  border-radius: 6px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+// Loop through each class to assign colors and background images
+@each $class, $color in $bg-colors {
+  .#{$class} {
+    background-color: $color;
+
+    &::before {
+      background-image: url('/images/icons/#{map-get($bg-images, $class)}');
+    }
+  }
+}
+.water, .fire {
+  color: white;
+}
+/* Newmoonsletter */
+.newmoonsletter-list {
+  list-style-type: none !important;
+  margin: 0;
+  li {
+    margin-left: 0 !important;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    background-image: url("/images/icons/tethix-mark-black.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    }
+  }
+}
