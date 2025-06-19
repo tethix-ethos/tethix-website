@@ -23,8 +23,8 @@ author: Tethix
 email: info@tethix.co
 description: >- # this means to ignore newlines until "baseurl:"
   Crafting tools and narratives that close the ethical intent to action gap in product development.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tethix-ethos.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/tethix-website" # the subpath of your site, e.g. /blog
+url: "https://tethix-ethos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 logo: "images/logo/logo.svg" # used by seo plugin
 image: /images/logo/tethix-default-image.png
