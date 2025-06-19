@@ -2,5 +2,8 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
+/vendor
+!_sass/
+!_sass/bootstrap/
+!_sass/bootstrap/vendor/
 **/.DS_Store
