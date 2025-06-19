@@ -2,7 +2,7 @@
 <div class="content">
   <ul class="newmoonsletter-list">
   {% for issue in sorted_issues limit: {{include.limit}} %}
-    <li><a href="{{ issue.url }}">{{ issue.title }}</a></li>
+    <li><a href="{{ issue.url | relative_url }}">{{ issue.title }}</a></li>
   {% endfor %}
   </ul>
 </div>
