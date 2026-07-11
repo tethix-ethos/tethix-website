@@ -10,11 +10,9 @@ ethos: true
 hero_title: Tech ethics that makes you smile
 hero_image: /wp-content/uploads/2024/03/ethos-for-practitioners.svg
 hero_text: |
-  You know that the way we build tech needs to change. But tech ethics feels so removed from your practice.
+  ETHOS was our responsible tech journey companion — no degree in ethics required, built with an understanding of the pressures practitioners are under.  
   
-  Meet ETHOS, your responsible tech journey companion that doesn't require a degree in ethics and understands the pressures you're under.  
-  
-  With ETHOS, you can explore better intents and start nurturing your ethos in a place built for reflection, moral imagination, and smiles.
+  ETHOS is no longer being built. The seedling app remains online as a preserved artifact, and you can still explore better intents in a place built for reflection, moral imagination, and smiles.
 ---
 
 <section class="bg-light">
@@ -73,26 +71,25 @@ hero_text: |
 
 
 {% include section-ethos.html
-  title="Ready to nurture your ETHOS?"
-  content="Embark on your responsible tech journey by exploring ETHOS.
+  title="Wander through the seedling"
+  content="The ETHOS seedling app is preserved as it was.
   
   No account needed, no personal data collected, no tracking."
   image="/wp-content/uploads/2024/03/account.svg"
   image_position="right"
   image_width="150"
-  under_image="<p class='text-center pt-3'><a class='button button-external' href='https://ethos.tethix.co' role='button'>Visit ETHOS</a></p>"
+  under_image="<p class='text-center pt-3'><a class='button button-external' href='https://ethos.tethix.co' role='button'>Explore ETHOS (preserved)</a></p>"
   bg_color="bg-secondary"
 %}
 
 
 {% include section-ethos.html
-  title="P.S.: This is just the beginning..."
-  content="Right now, ETHOS is still a delicate seedling, trying to grow in a hostile ecosystem with little sunshine, so please tread with care. We’re still trying to figure out where to find the nutrients this little seedling desperately needs to grow and thrive.
+  title="P.S.: Where the seedling's story ended..."
+  content="ETHOS never grew past the seedling stage. We dreamed of growing it into a thriving tech ethics forest — a complete Ethical Tension and Health Operating System to help organisations close the ethical intent to action gap — but we never found the nutrients it needed to thrive, and in 2025 we stopped tending it.
 
-  Over time, we aim to grow the ETHOS seedling into a thriving tech ethics forest by codesigning a complete Ethical Tension and Health Operating System (ETHOS), which will help organisations close the ethical intent to action gap. Explore [our product vision](https://tethix.co/product-ethos/) to find out more about our vision."
+  The seedling remains online as an artifact, and [our product vision](https://tethix.co/product-ethos/) is preserved as it stood. If something here takes root in your own practice, it will have grown after all."
   image="/wp-content/uploads/2023/08/seed-to-seedling-phase-transition.svg"
   image_position="right"
-  under_image="If you would like to help find the nutrients the ETHOS seedling desperately needs to grow and thrive, please get in touch and help us bring a bit of calm, mindfulness, and better intents to the tech we build."
 %}
 
 

@@ -12,7 +12,7 @@ hero_image: /wp-content/uploads/2024/03/ethos-for-organisations.svg
 hero_text: |
   Good intentions don't always lead to ethical actions. To close the intent to action gap, we need an approach to ethics that is embodied, contextual, and a living system within the organisation.
 
-  Explore our vision for how ETHOS might evolve to close the ethical to action gap in your organisation.
+  **This page preserves the ETHOS product vision as it stood in 2024. ETHOS is no longer being built** — the vision remains here for anyone who wants to see what we imagined, or grow something from it.
 ---
 
 
@@ -145,8 +145,8 @@ hero_text: |
     <div class="row align-items-center">
       <div class="col-md-12 text-center">
       <h2>Explore our ETHOS vision in detail</h2>
-      <p>Clearly, ETHOS is an ambitious goal that we will not be able to reach alone – nor would we want to do this alone without engaging in codesign.​</p>
-      <p>However, if the idea excites you, we invite you to explore how we currently see ETHOS growing from its <a href="https://tethix.co/practice-ethos/">seedling app</a> form into a thriving ethics forest and an actual ethical operating system for your organisation.</p>
+      <p>ETHOS was an ambitious goal we knew we couldn't reach alone – nor would we have wanted to, without engaging in codesign.​</p>
+      <p>These pieces trace how we saw ETHOS growing from its <a href="https://tethix.co/practice-ethos/">seedling app</a> form into a thriving ethics forest and an actual ethical operating system.</p>
       </div>
     </div>
     <div class="row align-items-top pt-3">
@@ -180,9 +180,9 @@ hero_text: |
 
 
 {% include section-plain.html
-  title="Want to see this vision come to life?"
-  content="We're still looking for nutrients ETHOS needs to grow to its full size.
+  title="The vision, as we pitched it"
+  content="ETHOS never found the nutrients it needed to grow to full size, and it is no longer being built.
   
-  [**Download**](/wp-content/uploads/2024/03/Tethix-ETHOS-Pitch-Q1-2_24.pdf) and view our pitch deck and please get in touch if you'd like to help in any way."
+  Our pitch deck is preserved as a historical artifact: [**download it here**](/wp-content/uploads/2024/03/Tethix-ETHOS-Pitch-Q1-2_24.pdf)."
   bg_color="bg-secondary"
 %}

@@ -2,18 +2,18 @@
 layout: page
 bodyClass: pathfinders
 permalink: /pathfinders/
-title: Join Pathfinders
+title: Pathfinders
 seo_title: '%%title%% %%page%%'
-description: Welcome, wondering wanderer, eager to explore paths to better tech futures, together. Subscribe to the Newmoonsletter and gather around the virtual campfire with other Pathfinders.
+description: Welcome, wondering wanderer, eager to explore paths to better tech futures, together. The Pathfinders Newmoonsletter, Full Moon Gatherings, and podcast ran from 2023 to 2025 — the archive is yours to explore.
 publish: true
 image: /wp-content/uploads/2024/03/featured-img_pathfinders.png
-hero_title_top: Looking for Pathfinders
+hero_title_top: The Pathfinders
 hero_text: |
     The tech industry likes to move fast and break things, starting wildfires left and right.
   
-    As responsible firekeepers, we invite you to stop feeding the wildfires. To look around. To look up. To start exploring the paths not so well travelled. And to join the Tethix pathfinding adventure as a Pathfinder.  
+    As responsible firekeepers, we invited wondering wanderers to stop feeding the wildfires. To look around. To look up. To start exploring the paths not so well travelled — together, as Pathfinders.  
   
-    We're not looking for heroes. This is a call for all wondering wanderers, eager to explore paths to better tech futures, together.
+    The pathfinding adventure ran from 2023 to 2025. The seeds it planted — the Newmoonsletter, the gatherings, the podcast — remain here for you to wander.
 hero_image: /wp-content/uploads/2024/03/pathfinding.svg
 ---
 
@@ -38,7 +38,7 @@ hero_image: /wp-content/uploads/2024/03/pathfinding.svg
   
   In a world overflowing with conventional thinkers, a Pathfinder seeks to uncover overlooked perspectives, embody problem-spaces and foster discussions that lead to actionable insight for the betterment of humanity and our planet.  
   
-  If you recognize yourself in this description, join our pathfinding adventure with other curious souls."
+  If you recognize yourself in this description, the paths explored here are yours to keep walking."
   image="/wp-content/uploads/2024/03/pathfinder.svg"
   image_position="left"
   bg_color="bg-light"
@@ -54,12 +54,11 @@ hero_image: /wp-content/uploads/2024/03/pathfinding.svg
 {% include section-ethos.html
   id="new-moon"
   title_top=new-moon-title
-  title="Subscribe for moonthly seeds of tech inspiration"
-  content="A companion on your pathfinding journey, the Newmoonsletter rises in your inbox under the New Moon – when the nights are darkest – to inspire collective pathfinding towards better tech futures."
+  title="Moonthly seeds of tech inspiration, 2023–2025"
+  content="A companion on the pathfinding journey, the Newmoonsletter rose in inboxes under the New Moon – when the nights are darkest – to inspire collective pathfinding towards better tech futures.
+  
+  Nineteen moons rose between October 2023 and April 2025. All of them are archived below and on [Substack](https://tethix.substack.com/s/pathfinders-newmoonsletter)."
   image_position="right"
-  under_image="
-  <iframe src='https://tethix.substack.com/embed' max-width='480' height='320' style='border:1px solid #EEE; background:white;' frameborder='0' scrolling='no'></iframe>
-  "
 %}
 
 {% capture new-moon-content %}
@@ -87,21 +86,11 @@ Missed a moon? Browse the archive below or on [Substack](https://tethix.substack
 {% include section-ethos.html
   id="full-moon"
   title_top=full-moon-title
-  title="Gather around the virtual campfire with other Pathfinders"
-  content="Pack your exploration backpacks and join us around the virtual campfire under the Full Moon – when the nights are brightest – to discuss the lunacy of tech."
+  title="Gatherings around the virtual campfire"
+  content="Under the Full Moon – when the nights are brightest – Pathfinders packed their exploration backpacks and gathered around the virtual campfire to discuss the lunacy of tech.
+  
+  The gatherings have ended, but many of the paths they illuminated live on in the [podcast](#podcast) and the [Newmoonsletter archive](#newmoonsletter-archive)."
   image_position="right"
-  under_image="
-  <iframe
-    src='https://lu.ma/embed/calendar/cal-j48AAPj374qdYLD/events?compact=true'
-    max-width='480'
-    height='320'
-    frameborder='0'
-    style='border: 1px solid #FFDE03; border-radius: 4px;'
-    allowfullscreen=''
-    aria-hidden='false'
-    tabindex='0'
-  ></iframe>
-  "
 %}
 
 {% capture podcast-buttons %}
@@ -123,10 +112,10 @@ Missed a moon? Browse the archive below or on [Substack](https://tethix.substack
 
 {% include section-plain.html 
   title="Embracing the lunacy of tech"
-  content="In an industry that feels increasingly erratic, we embrace its lunacy with smiles and love.
+  content="In an industry that feels increasingly erratic, we embraced its lunacy with smiles and love.
 
-  Thus, we invite all Pathfinders to sync our monthly reflections and gatherings to the lunar cycle as a reminder of our place in the Universe and a commonality we share across timezones and places we inhabit.
+  Pathfinders synced their monthly reflections and gatherings to the lunar cycle as a reminder of our place in the Universe and a commonality shared across timezones and places we inhabit.
 
-  As we ponder the celestial movements in tech together, we hope that gazing up into the night sky inspires you to dream about different worlds and examine our current world from a different perspective."
+  The moon still rises. We hope that gazing up into the night sky inspires you to dream about different worlds and examine our current world from a different perspective."
   bg_image="/wp-content/uploads/2024/03/stars-background.svg"
 %}

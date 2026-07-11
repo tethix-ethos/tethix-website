@@ -3,11 +3,11 @@ layout: page
 bodyClass: pathfinders
 permalink: /pathfinders/newmoonsletter/
 title: Pathfinders Newmoonsletter
-description: As the moon completes another orbit around Earth, the Pathfinders Newmoonsletter rises in your inbox to inspire collective pathfinding towards better tech futures.
+description: From October 2023 to April 2025, the Pathfinders Newmoonsletter rose under each New Moon to inspire collective pathfinding towards better tech futures. All nineteen moons are archived here.
 publish: true
 image: /wp-content/uploads/2024/03/pathfinders-newmoonsletter_title.png
 hero_title: Pathfinders Newmoonsletter
-hero_text: As the moon completes another orbit around Earth, the Pathfinders Newmoonsletter rises in your inbox to inspire collective pathfinding towards better tech futures.
+hero_text: From October 2023 to April 2025, the Pathfinders Newmoonsletter rose under each New Moon to inspire collective pathfinding towards better tech futures. All nineteen moons are archived here.
 hero_image: /wp-content/uploads/2024/03/pathfinders-newmoonsletter.png
 ---
 
@@ -27,11 +27,10 @@ hero_image: /wp-content/uploads/2024/03/pathfinders-newmoonsletter.png
 %}
 
 {% include section-ethos.html
-  title="Subscribe for moonthly seeds of tech inspiration"
-  content="A companion on your pathfinding journey, the Newmoonsletter rises in your inbox under the New Moon – when the nights are darkest – to inspire collective pathfinding towards better tech futures."
+  title="Moonthly seeds of tech inspiration, 2023–2025"
+  content="A companion on the pathfinding journey, the Newmoonsletter rose in inboxes under the New Moon – when the nights are darkest – to inspire collective pathfinding towards better tech futures.
+  
+  No new moons will rise, but the seeds keep. The full archive also lives on [Substack](https://tethix.substack.com/s/pathfinders-newmoonsletter)."
   image_position="right"
-  under_image="
-  <iframe src='https://tethix.substack.com/embed' max-width='480' height='320' style='border:1px solid #EEE; background:white;' frameborder='0' scrolling='no'></iframe>
-  "
   bg_color="bg-secondary"
 %}

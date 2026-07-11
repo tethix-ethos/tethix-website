@@ -7,3 +7,5 @@ _site
 !_sass/bootstrap/
 !_sass/bootstrap/vendor/
 **/.DS_Store
+# Composting session planning (local only)
+compost-planning/

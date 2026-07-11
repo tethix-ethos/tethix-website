@@ -6,25 +6,25 @@ description: "Crafting tools and narratives that close the ethical intent to act
 publish: true
 hero_title_top: Tech ethics that makes you smile
 hero_text: |
-  Meet ETHOS, your responsible tech journey companion that doesn't require a degree in ethics and understands the pressures you're under.  
+  ETHOS was our responsible tech journey companion — a place built for reflection, moral imagination, and smiles, without requiring a degree in ethics.  
   
-  With ETHOS, you can explore better intents and start nurturing your ethos in a place built for reflection, moral imagination, and smiles.
+  ETHOS is no longer being built, but the seedling is preserved and you're welcome to explore it.
 hero_image: /wp-content/uploads/2024/03/ethos-for-practitioners.svg
 hero_under_image: |
-  <div class="pt-2"><a href="https://tethix.co/practice-ethos/" class="button button-fire text-uppercase">Explore ETHOS</a></div>
+  <div class="pt-2"><a href="https://tethix.co/practice-ethos/" class="button button-fire text-uppercase">Explore the ETHOS archive</a></div>
 ---
 
 {% include section-home.html
   title="Pathfinding better tech futures, together"
-  content="We're connecting curious souls eager to exercise their moral imagination.  
+  content="From 2023 to 2025, the Pathfinders community connected curious souls eager to exercise their moral imagination.  
   
-  Pathfinders, willing to explore the complex dance between technology, society, and collective wisdom.  
+  Pathfinders explored the complex dance between technology, society, and collective wisdom — through a moonthly newmoonsletter, Full Moon Gatherings, and a podcast.  
   
-  Will you join our adventure?"
+  The archive is yours to wander."
   image="/wp-content/uploads/2023/10/backpacker.svg"
   image_position="right"
   button_link="/pathfinders/"
-  button_text="Become a Pathfinder"
+  button_text="Explore Pathfinders"
   element="water"
   bg_color="bg-light"
 %}
@@ -45,11 +45,11 @@ hero_under_image: |
 
 {% include section-home.html
   title="Shift your culture from firefighting to firekeeping"
-  content="We offer an alternative to the tech industry's usual approach of starting fires, then exhausting resources through incessant firefighting.
+  content="Responsible firekeeping was our alternative to the tech industry's usual approach of starting fires, then exhausting resources through incessant firefighting.
   
-  We call this approach responsible firekeeping.  
+  A cultural shift away from reactivity towards proactivity: through Elemental Ethics, responsible firekeeping helps bring light, warmth and power to humanity.  
   
-  Responsible firekeeping is a cultural shift away from reactivity towards proactivity. Through using Elemental Ethics, responsible firekeeping helps bring light, warmth and power to humanity."
+  The framework and its writing remain here for anyone who wants to keep the flame."
   image="/wp-content/uploads/2024/03/firekeeping.svg"
   image_position="right"
   button_link="/elemental-ethics/"
@@ -60,9 +60,9 @@ hero_under_image: |
 
 {% include section-home.html
   title="Small team, big dreams"
-  content="Our purpose is to help humanity reimagine and create technology for collective human flourishing.
+  content="Our purpose was to help humanity reimagine and create technology for collective human flourishing.
   
-  Our mission is to craft tools and narratives that close the ethical intent to action gap in product development."
+  Our mission was to craft tools and narratives that close the ethical intent to action gap in product development."
   image="/wp-content/uploads/2024/03/firekeeping.svg"
   image_position="right"
   button_link="/about-tethix/"
@@ -83,14 +83,14 @@ hero_under_image: |
 {% endcapture %}
 
 {% include section-plain.html
-  title="Our team has worked with..."
+  title="Our team worked with..."
   content=client-logos
   bg_color="bg-primary"
   text_center="true"
 %}
 
 {% include section-plain.html
-  title="Join the adventure..."
-  content="Interested to chatting with the Tethix Firekeepers? Send us an email and join us in this adventure best experienced together."
+  title="The adventure has ended..."
+  content="Tethix wound down in 2025, and the work has been composted into new soil. This site is kept for posterity. Questions about the archive? You can still send us an email."
   bg_color="bg-secondary"
 %}

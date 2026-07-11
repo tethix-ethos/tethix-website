@@ -19,8 +19,8 @@ image: /wp-content/uploads/2022/03/Page_feature_image_toolsDirectory_00.jpg
       <div class="col-md-6 text-center px-4 py-6" style="border-radius:24px; background-color: #FF02661F;">
         <img src="{{ '/wp-content/uploads/2024/03/fire.svg' | relative_url }}" alt="" width="54px" class="img-fluid rounded">
         <h1 class="fs-3 mb-0">ETHOS Tools Directory</h1>
-        <p class="small">Discover tools and techniques that can transform your practice as part of ETHOS, your responsible tech journey companion.</p>
-        <a class="button button-fire button-external" href="https://ethos.tethix.co/tools/" role="button">Discover Tools</a>
+        <p class="small">The directory lives on in the preserved ETHOS seedling app — tools and techniques that can still transform your practice.</p>
+        <a class="button button-fire button-external" href="https://ethos.tethix.co/tools/" role="button">Browse the directory</a>
       </div>
     </div>
   </div>

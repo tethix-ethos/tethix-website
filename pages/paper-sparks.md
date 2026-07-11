@@ -92,9 +92,9 @@ We recommend using these Sparks when you want to spark conversations and uncover
 
 
 {% include section-plain.html
-  title="Looking for custom sparks?"
-  content="Get in touch if you are looking for help on how to spark better discussions.  
+  title="Keep sparking"
+  content="The sparks above are free to print, share, and adapt.  
   
-  We specialize in using storytelling and diverse methods, mediums, and tools to evoke playfulness and nurture your team's moral imagination."
+  Tethix is no longer around to make custom sparks — so light your own. Storytelling, playfulness, and diverse methods for nurturing your team's moral imagination are yours to carry forward."
   bg_color="bg-secondary"
 %}

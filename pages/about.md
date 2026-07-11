@@ -2,21 +2,21 @@
 layout: page
 permalink: /about-tethix/
 title: About Tethix
-description: Tethix is a social impact venture dedicated to helping people (re)imagine and create more ethical and responsible technology
+description: Tethix (2020–2025) was a social impact venture dedicated to helping people (re)imagine and create more ethical and responsible technology
 publish: true
 hero_above: Tethix
 hero_title: About us
 hero_text: |
-  We’re a social impact venture with big dreams. Dedicated to helping people (re)imagine and create technology that enables collective human flourishing.
+  We were a social impact venture with big dreams. Dedicated to helping people (re)imagine and create technology that enables collective human flourishing.
 
-  Read [Tethix TL;DR](https://tethix.co/fire/tethix-tldr/) for a quick overview of the problem we're solving and the solutions we're building, or continue reading to learn more about the team and our story.
+  Read [Tethix TL;DR](https://tethix.co/fire/tethix-tldr/) for a quick overview of the problem we set out to solve and the solutions we built, or continue reading to learn more about the team and our story.
 hero_image: /wp-content/uploads/2022/05/beacon-of-hopetethix_pathfinders_blog.svg
 ---
 
 
 {% include section-plain.html
   title="Founding team"
-  content="A experienced founding crew pursuing purpose. To help humanity reimagine and create technology for collective human flourishing."
+  content="An experienced founding crew who pursued a shared purpose: to help humanity reimagine and create technology for collective human flourishing."
   bg_color="bg-light"
   text_center="true"
 %}
@@ -26,7 +26,7 @@ hero_image: /wp-content/uploads/2022/05/beacon-of-hopetethix_pathfinders_blog.sv
 
 {% include section-plain.html
   title="Advisors"
-  content="Brilliant humans guiding us in keeping aligned to our purpose, values and principles. Helping us in ensuring our our tech is being built in alignment to the public interest."
+  content="Brilliant humans who guided us in keeping aligned to our purpose, values and principles — and in ensuring our tech was built in alignment to the public interest."
   bg_color="bg-light"
   text_center="true"
 %}
@@ -41,8 +41,8 @@ hero_image: /wp-content/uploads/2022/05/beacon-of-hopetethix_pathfinders_blog.sv
 
   In March 2022, we guided our first pilot fellowship on a unique exploration journey in tech ethics. Taking place as a collaborative simulation in the Tethix Archipelago. You can learn more about this pilot on [our blog](https://tethix.co/blog-articles/).
 
-  But this is just the beginning of the adventure we want to embark on as we continue building tools like [ETHOS](https://tethix.co/product-ethos/) to make ethics accessible and practical in tech.
+  From there we built tools like [ETHOS](https://tethix.co/product-ethos/) to make ethics accessible and practical in tech, gathered the Pathfinders community around a moonthly newmoonsletter and Full Moon Gatherings, and developed the Elemental Ethics framework for responsible firekeeping.
 
-  Just a small taste of the experiences we want to design together with you. Yes, you. Because it will take diverse perspectives and more than our small team of firekeepers to imagine and pave the way to a better tech future."
+  The adventure ended in 2025. Tethix is no longer active, and the work has been composted into new soil — because it will take diverse perspectives and more than one small team of firekeepers to imagine and pave the way to a better tech future. This site remains as an archive of what we made, and everything here is yours to carry onward."
   bg_color="bg-secondary"
 %}

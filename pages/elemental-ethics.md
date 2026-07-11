@@ -123,8 +123,8 @@ Forged by practitioners, mindful of each step and oriented to action| OVER| Led 
 
 {% include section-plain.html
   title="Ready to become a responsible firekeeper?"
-  content="Don't let the house, city or forest burn down. 
+  content="Don't let the house, city or forest burn down.
   
-  Cultivate a sustainable flame by working with our team. We deliver workshops, keynotes and advisory services to companies that want to lead the way to a responsible tech future."
+  Tethix no longer delivers workshops, keynotes or advisory services — but the Elemental Ethics framework and [everything we wrote about responsible firekeeping](/blog/category/fire/) remain here for you to use, adapt, and keep the flame with."
   bg_color="bg-secondary"
 %}
